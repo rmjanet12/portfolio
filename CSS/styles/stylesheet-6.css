@@ -1,0 +1,90 @@
+h1 {
+    color:aqua;
+}
+h2 {
+    color:darkturquoise;
+}
+h3 {
+    color:blueviolet;
+}
+p {
+    color: rgb(0, 225, 54);
+}
+body {
+    background-color: #ffe3f1;
+    font-family:'Times New Roman', Times, serif;
+}
+.pink-text {
+    color: hsl(0, 45%, 37%);
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+.important {
+    font-weight: bold;
+} #lead-paragraph {
+    color: grey;
+    font-weight:bold;
+}
+.important:hover {
+    background-color:#3d3d8b;
+}
+h1{
+    color:red;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+p.important{
+    width:75%;
+}
+img {
+    border-style: dashed;
+    border-color: orange;
+    border-width: 3px;
+}
+a[href="about-me.html"] {
+    background-color:palegreen;
+    padding: 1rem;
+}
+a[href="dummy1.html"] {
+    background-color:darkgreen;
+    padding:0.2rem;
+}
+a[href="dummy2.html"] {
+    background-color:cadetblue;
+    padding: 0.2rem;
+}
+.box {
+    height: 30px;
+    width: 70px;
+    border: 10px solid purple;
+    background: yellow;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header a:visited {
+    color: orange;
+}
+
+article ol li:nth-child(odd) {
+    color: lightcyan;
+}
+
+aside ol li:nth-child(2n+1) {
+    background-color: lightseagreen;
+}
+.footer:hover {
+    border: 3px solid #1554FB;
+}
+
+.footer {
+    transition: border 4s ease-in 1s;
+  }
