@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact form</title>
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet-9.css">
+    </head>
+    <body>
+        <h1>PLEASE PROVIDE CONTACT INFORMATION</h1>
+        <form METHOD="get">
+            <label>First Name:
+                <input type="text" name="applicantName">
+            </label>
+            <label>Last Name:
+                <input type="text" name="applicantName">
+            </label>
+            <label>Email:
+                <input type="email" name="applicantEmail">
+            </label>
+            <label for="current">Phone:</label>
+            <input type="text" name="phoneNumber" id="current">
+            <fieldset class="checkbox">
+                <legend>What are the skills you have?</legend>
+                <label>
+                    <input type="checkbox" name="type" value="C++">C++
+                    <span class="checkmark"></span>
+                </label>
+                <label>
+                    <input type="checkbox" name="type" value="JAVA">JAVA
+                    <span class="checkmark"></span>
+                </label>
+                <label>
+                    <input type="checkbox" name="type" value="PYTHON">PYTHON
+                    <span class="checkmark"></span>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>What is the preferred work mode?</legend>
+                <input type="radio" name="special" value="yes">
+                <label>Remote
+                </label>
+                <br><input type="radio" name="special" value="no">
+                <label>Onsite
+                </label>
+                <br><input type="radio" name="special" value="no">
+                <label>Hybrid
+                </label>
+            </fieldset>
+            <label>How many hours can you work for a day?
+                <select name="hours">
+                    <option value="few">less than 6</option>
+                    <option value="some">6 to 8</option>
+                    <option value="many">more than 8</option>
+                </select>
+            </label>
+            <label>If you'd like to create an account, enter a password.
+                <input type="password" name="applicantPwd">
+            </label>
+            <input type="submit" value="Apply Now!">
+        </form>
+    </body>
+</html>
